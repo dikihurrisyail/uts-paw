@@ -1,10 +1,106 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Monstrea",
+    "kategori": "Daun",
+    "namaLatin": "Monstera deliciosa",
+    "frekuensiSiram": "2x seminggu",
+    "kebutuhanCahaya": "Sedang"
+  },
+  {
+    "id": "2",
+    "judul": "Keladi Tengkorak",
+    "kategori": "Daun",
+    "namaLatin": "locasia sanderiana",
+    "frekuensiSiram": "2x seminggu",
+    "kebutuhanCahaya": "Sedang"
+  },
+  {
+    "id": "3",
+    "judul": "Monstera Thai Constellation",
+    "kategori": "Daun",
+    "namaLatin": "Monstera deliciosa 'Thai Constellation'",
+    "frekuensiSiram": "2x seminggu",
+    "kebutuhanCahaya": "Sedang"
+  },
+  {
+    "id": "4",
+    "judul": "Begonia Maculata",
+    "kategori": "Daun",
+    "namaLatin": "Begonia maculata",
+    "frekuensiSiram": "2x seminggu",
+    "kebutuhanCahaya": "Teduh"
+  },
+  {
+    "id": "5",
+    "judul": "Anggrek Hitam",
+    "kategori": "Bunga",
+    "namaLatin": "Coelogyne pandurata",
+    "frekuensiSiram": "3x seminggu",
+    "kebutuhanCahaya": "Sedang"
+  },
+  {
+    "id": "6",
+    "judul": "Bunga Kelelawar",
+    "kategori": "Bunga",
+    "namaLatin": "Tacca chantrieri",
+    "frekuensiSiram": "3x seminggu",
+    "kebutuhanCahaya": "Teduh"
+  },
+  {
+    "id": "7",
+    "judul": "Mawar Gurun",
+    "kategori": "Sukulen",
+    "namaLatin": "Adenium obesum",
+    "frekuensiSiram": "1x seminggu",
+    "kebutuhanCahaya": "Penuh"
+  },
+  {
+    "id": "8",
+    "judul": "Haworthia Zebra",
+    "kategori": "Sukulen",
+    "namaLatin": "Haworthiopsis attenuata",
+    "frekuensiSiram": "1x seminggu",
+    "kebutuhanCahaya": "Sedang"
+  },
+  {
+    "id": "9",
+    "judul": "Dischidia Nummularia",
+    "kategori": "Gantung",
+    "namaLatin": "Dischidia nummularia",
+    "frekuensiSiram": "2x seminggu",
+    "kebutuhanCahaya": "Sedang"
+  },
+  {
+    "id": "10",
+    "judul": "Ekor Keledai",
+    "kategori": "Gantung",
+    "namaLatin": "Sedum morganianum",
+    "frekuensiSiram": "1x seminggu",
+    "kebutuhanCahaya": "Penuh"
+  },
+  {
+    "id": "11",
+    "judul": "Hoya Kerrii",
+    "kategori": "Gantung",
+    "namaLatin": "Hoya kerrii",
+    "frekuensiSiram": "1x seminggu",
+    "kebutuhanCahaya": "Sedang"
+  },
+  {
+    "id": "12",
+    "judul": "Bougenville",
+    "kategori": "Bunga",
+    "namaLatin": "Bougainvillea spectabilis",
+    "frekuensiSiram": "3x seminggu",
+    "kebutuhanCahaya": "Penuh"
+  },
+  {
+    "id": "13",
+    "judul": "Janda Bolong",
+    "kategori": "Daun",
+    "namaLatin": "Monstera adansonii",
+    "frekuensiSiram": "2x seminggu",
+    "kebutuhanCahaya": "Sedang"
   }
 ]
