@@ -60,18 +60,16 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 
 ## README milikmu
 
-Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
-
 ```markdown
 # Nama Aplikasi
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+Nama: Diki Hurrisyail
+NIM: 124140088
+Kelas: RB
+Tema: Koleksi Tanaman Hias
+Deployment: https://dikihurrisyail.github.io/uts-paw/
 
-![Tangkapan layar beranda](docs/beranda.png)
+![Tangkapan layar beranda](ss/beranda.jpg)
 
 ## Fitur
 
