@@ -1,4 +1,4 @@
-import { use, useState } from "react"
+import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import useKoleksi from "../hooks/useKoleksi"
 import './Tambah.css'
@@ -27,8 +27,8 @@ export default function Tambah() {
         <form className="formulir" onSubmit={simpan} noValidate>
             <h1>Tambah Tanaman</h1>
 
-            <label htmlFor="judul">Nama Tanaman</label>
-            <input id="judul" name="judul" value={form.judul} onChange={ubah}/>
+            <label htmlFor="judul">Judul</label>
+            <input id="judul" name="judul" value={form.judul} onChange={ubah} placeholder="Contoh: Lidah Buaya"/>
             {galat && <p role="alert">{galat}</p>}
 
             <label htmlFor="kategori">Kategori</label>
