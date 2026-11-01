@@ -60,7 +60,6 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 
 ## README milikmu
 
-```markdown
 # Nama Aplikasi
 
 Nama: Diki Hurrisyail
@@ -84,4 +83,3 @@ npm run dev
 ## Konsep React yang dipakai
 
 - ...
-```
