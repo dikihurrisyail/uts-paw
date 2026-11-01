@@ -68,11 +68,27 @@ Kelas: RB
 Tema: Koleksi Tanaman Hias
 Deployment: https://dikihurrisyail.github.io/uts-paw/
 
-![Tangkapan layar beranda](public/ss/beranda.jpg)
+![Tangkapan layar beranda](app/public/ss/beranda.png)
+![Tangkapan layar koleksi](app/public/ss/koleksi.png)
+![Tangkapan layar detail](app/public/ss/detail.png)
+![Tangkapan layar tambah](app/public/ss/tambah.png)
+![Tangkapan layar statisik](app/public/ss/statistik.png)
+![Tangkapan layar tentang](app/public/ss/tentang.png)
+![Tangkapan layar tidak ditemukan](app/public/ss/404.png)
 
 ## Fitur
 
-- ...
+- Dapat berpindah halaman beranda, koleksi, detail, statistik, dan menambah data dengan react router
+- Halaman beranda: dapat pergi ke semua halaman yang ditampilkan.
+- Halaman koleksi: Dapat mencari tanaman sesuai judul dan dapat filter sesuai kategori,judul dapat di klik untuk masuk ke page detail dan halaman koleksi menampilkan card dengan field tertentu.
+- Halaman detail: Dapat menghapus koleksi dengan tombol hapus dan kembali untuk kembali ke page koleksi.
+- Halaman tambah : Dapat menambahkan koleksi tanaman baru dengan kriteria dan ketentuan yang berlaku dan dapat menyimpan tanaman yang sudah di tambahkan.
+- Halaman statistik : Menampilkan statistik berdasarkan variable kategori dan di jumlahkan totalnya pada footer.
+- Halaman tentang: Menampilkan data diri pembuat sekaligus terdapat link deploy.
+- Melakukan pencarian data tanaman berdasarkan judul
+- Dapat melakukan filter tanaman berdasarkan kategori
+- Dapat menguji komponen dan fitur dengan vites dan react testing library
+ 
 
 ## Menjalankan secara lokal
 
@@ -82,4 +98,12 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
+- Komponen fungsional dan pemecahan antarmuka menjadi komponen yang dapat digunakan kembali.
+- Props untuk mengirim data dan fungsi antar-komponen.
+- State dengan useState untuk formulir, pencarian, filter kategori, serta status aplikasi.
+- Context dan Provider untuk membagikan data koleksi ke berbagai halaman.
+- Custom hooks untuk mengakses koleksi dan mengelola data di localStorage.
+- useEffect untuk mengambil data awal dan menyinkronkan data ke localStorage.
+- Rendering kondisional untuk status memuat, pesan kesalahan, dan hasil pencarian kosong.
+- Rendering daftar dengan map() dan atribut key.
+- React Router untuk navigasi halaman, rute detail, serta halaman 404.
