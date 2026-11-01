@@ -9,6 +9,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    background-color: darkgreen;
+    color: white;
 }
 
 .menu {
@@ -16,8 +18,14 @@
     gap: 1rem;
 }
 
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
 .menu a.active {
     font-weight: 600;
+    color: black;
 }
 
 .isi {
@@ -31,9 +39,9 @@
 .kaki {
     padding: 1rem 1.5rem;
     border-top: 1px solid #dcdcdc;
-    text-align: center;
-    color: #57606a;
+    color: black;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 .aksi {
@@ -67,6 +75,8 @@
     padding: 1rem;
     border: 1px solid #dcdcdc;
     border-radius: 8px;
+    background-color: darkgreen;
+    box-shadow: 0 2px 4px rgba(26, 115, 232, 0.05);
 }
 
 .kartu h3 {
@@ -74,9 +84,14 @@
     font-size: 1.05rem;
 }
 
+.kartu h3 a{
+    color: white;
+    text-decoration: none;
+}
+
 .kartu p {
     margin: 0;
-    color: #57606a;
+    color: black;
 }
 
 .alat-koleksi {
