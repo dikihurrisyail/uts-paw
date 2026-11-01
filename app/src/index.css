@@ -233,8 +233,8 @@ a:focus-visible {
 }
 
 .tabel-data th {
-    background-color: #eaf1e9;
-    color: #285b39;
+    background-color: darkgreen;
+    color: white;
 }
 
 .tabel-data tbody tr:hover {
