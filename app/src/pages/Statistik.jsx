@@ -1,5 +1,4 @@
 import useKoleksi from "../hooks/useKoleksi"
-import './Statistik.css'
 
 export default function Statistik() {
 

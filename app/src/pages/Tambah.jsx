@@ -1,7 +1,6 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import useKoleksi from "../hooks/useKoleksi"
-import './Tambah.css'
 
 const AWAL = { judul: '', kategori: 'Daun', namaLatin: '', frekuensiSiram: '', kebutuhanCahaya: 'Sedang'}
 
