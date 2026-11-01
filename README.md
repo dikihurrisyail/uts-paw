@@ -68,7 +68,7 @@ Kelas: RB
 Tema: Koleksi Tanaman Hias
 Deployment: https://dikihurrisyail.github.io/uts-paw/
 
-![Tangkapan layar beranda](ss/beranda.jpg)
+![Tangkapan layar beranda](public/ss/beranda.jpg)
 
 ## Fitur
 
